@@ -50,7 +50,7 @@ app.layout = html.Div([
         value=1
     ),
     dcc.Graph(id='graph'),
-    html.A('Code on Github', href='https://github.com/ksebastian/208-authentication-example'),
+    html.A('Code on Github', href='https://github.com/wangweiching/208-authentication-example'),
     html.Br(),
     html.A("Data Source", href='https://dash.plotly.com/authentication'),
 ], className='container')
